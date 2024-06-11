@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando média</title>
+</head>
+<body>
+    <h1>Realizando média de dois números válidos</h1>
+    <h2>
+        <p>
+            É possível realizar com dados contidos no JavaScript, bem como com dados inseridos pelo usuário.
+        </p>
+        
+    </h2>
+
+    <fieldset>
+        <h2><strong>Dados contidos no JavaScript</strong></h2>
+        <div>           
+           <p id="numero-JS1"><strong>Número 1:</strong>
+           </p>
+
+           <p id="numero-JS2"><strong>Número 2:</strong></p>
+        </div>
+
+        <div>
+            <p id="validacao-js"></p>
+        </div>
+
+        <button class="botao" id="idadeJS" onclick="mediaBotaoJS()">Calcular</button>
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+        <h2><strong>Dados inseridos pelo usuário</strong></h2><br>
+        <div>
+            <label><strong>Número 1:</strong></label>
+            <input type="value" name="numero-usuario1" id="numero-usuario1" required>
+        </div>
+
+        <div>
+            <label><strong>Número 2:</strong></label>
+            <input type="value" name="numero-usuario2" id="numero-usuario2" required>
+        </div>
+
+        <div>
+            <p id="validacao-usuario"></p>
+        </div>
+
+        <button class="botao" id="idadeUsuario" onclick="mediaBotaoUsuario()">Calcular</button>
+    </fieldset>
+    <script src="Média de números válidos.js"></script>
+</body>
+</html>
