@@ -24,21 +24,6 @@ function mediaBotaoUsuario() {
     calcularMedia(numero1, numero2, resultado);    
 }
 
-// function calcularMedia(numero1, numero2, resultado) {
-//     let soma = parseInt(numero1) + parseInt(numero2);
-//     let media = soma / 2;
-
-//     if(isNaN(numero1)) {
-//         resultado.innerHTML = `${numero1} não é um número válido. Por favor, insira um número.`;
-//     } else if (isNaN(numero2)) {
-//         resultado.innerHTML = `${numero2} não é um número válido. Por favor, insira um número.`;
-//     } else if (isNaN(numero1) && isNaN(numero2)) {
-//         resultado.innerHTML = `${numero1} e ${numero2} não são números válidos. Por favor, insira os números.`;
-//     } else {
-//         resultado.innerHTML = `A média de ${numero1} e ${numero2} é ${media}.`;
-//     }
-// }
-
 function calcularMedia(numero1, numero2, resultado) {
     let soma = parseInt(numero1) + parseInt(numero2);
     let media = soma / 2;
